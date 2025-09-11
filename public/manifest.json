@@ -1,0 +1,102 @@
+{
+  "name": "Mine Investeringer - Norwegian Investment Tracker",
+  "short_name": "Mine Investeringer",
+  "description": "Track your Norwegian investments across multiple platforms in real-time",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#15803d",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "no",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.jpg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.jpg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Porteføljer",
+      "short_name": "Porteføljer",
+      "description": "Se alle dine investeringsporteføljer",
+      "url": "/?tab=portfolios",
+      "icons": [{ "src": "/icons/shortcut-portfolios.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Investeringer",
+      "short_name": "Investeringer",
+      "description": "Oversikt over alle investeringer",
+      "url": "/?tab=assets",
+      "icons": [{ "src": "/icons/shortcut-assets.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Ytelse",
+      "short_name": "Ytelse",
+      "description": "Se porteføljens ytelse og grafer",
+      "url": "/?tab=performance",
+      "icons": [{ "src": "/icons/shortcut-performance.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Investment dashboard on desktop"
+    },
+    {
+      "src": "/screenshots/mobile-portfolio.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Portfolio view on mobile"
+    }
+  ]
+}
